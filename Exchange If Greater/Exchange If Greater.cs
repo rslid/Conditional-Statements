@@ -15,10 +15,10 @@ class Exchange_If_Greater
         numberTwo = Double.Parse(Console.ReadLine());
         if (numberOne > numberTwo)
         {
-            temp = numberTwo;
-            numberTwo = numberOne;
-            numberOne = temp;
-            Console.WriteLine("Result {0} {1}", numberOne, numberTwo);
+            //temp = numberTwo;
+            //numberTwo = numberOne;
+            //numberOne = temp;
+            Console.WriteLine("Result {0} {1}", numberTwo, numberOne);
         }
 
         else
