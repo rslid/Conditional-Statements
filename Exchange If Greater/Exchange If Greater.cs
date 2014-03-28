@@ -21,7 +21,10 @@ class Exchange_If_Greater
             Console.WriteLine("Result {0} {1}", numberOne, numberTwo);
         }
 
+        else
+        {
             Console.WriteLine("Result {0} {1}", numberOne, numberTwo);
+        }
         
 
     }
