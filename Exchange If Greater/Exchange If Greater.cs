@@ -7,7 +7,7 @@ class Exchange_If_Greater
     {
         double numberOne;
         double numberTwo;
-        double temp = 0;
+       double temp = 0;
 
         Console.Write("Please enter first number= ");
         numberOne = Double.Parse(Console.ReadLine());
@@ -15,10 +15,10 @@ class Exchange_If_Greater
         numberTwo = Double.Parse(Console.ReadLine());
         if (numberOne > numberTwo)
         {
-            //temp = numberTwo;
-            //numberTwo = numberOne;
-            //numberOne = temp;
-            Console.WriteLine("Result {0} {1}", numberTwo, numberOne);
+            temp = numberTwo;
+            numberTwo = numberOne;
+            numberOne = temp;
+            Console.WriteLine("Result {0} {1}", numberOne, numberTwo);
         }
 
         else
